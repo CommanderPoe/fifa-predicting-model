@@ -1,5 +1,8 @@
 # Lab | FIFA prediction model
 
+![image](https://user-images.githubusercontent.com/33594578/112985280-47a7cf80-9160-11eb-92a5-a5556a6824f2.jpeg)
+
+
 ### EXPLANATORY ANALYSIS
 
 For the FIFA21 project, we were presented with a table of data regarding professional football player’s personal, professional and skills information. The goal was to build a model so in the future, we could predict the overall player’s rating score.
