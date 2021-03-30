@@ -1,4 +1,4 @@
-    ### EXPLANATORY ANALYSIS
+### EXPLANATORY ANALYSIS
 
 For the FIFA21 project, we were presented with a table of data regarding professional football player’s personal, professional and skills information. The goal was to build a model so in the future, we could predict the overall player’s rating score.
 Our group first imported the different packages to be able to: get, read and work with the data.
