@@ -28,7 +28,7 @@ When cleaning the data, we performed the following actions:
 - Transforming numerical types stored as categorical into numerical variables by defining functions and pandas commands. Example: removing euro symbols
 - Visualization analysis: pairplot, displots, boxplots and heatmap.
 - Creation of new data frames with cleaned values
-Concatenated each cleaned variable into a final data frame.
+- Concatenated each cleaned variable into a final data frame.
 - Checked correlations between final variables using heatmap to decided whether to drop any other before creating the prediction model or not.
 
     #### Creation of the prediction model.
