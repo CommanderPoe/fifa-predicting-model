@@ -34,7 +34,8 @@ Concatenated each cleaned variable into a final data frame.
 - X-y split by defining “ova” as target variable
 - Build the model applying the linear regression method
 - Train-test split to fit the model with our final data
-Model validation.
+
+     #### Model validation.
 - Calculated R2, MSE, RMSE and MAE
 - Noticed our model was better than expected with a model score of 0.79 and mean absolute error of 2.4.
 
@@ -44,5 +45,7 @@ Model validation.
 - Introduced relevant categorical variables like international rating(?) and BP
 - Introduced a key numerical variable by using panda’s melt function: players best position score
 - After repeating the prediction model steps, we reached a model score of 0.98 with a mean absolute error of 0.8(?).
+
+
 In conclusion, it is clear that the overall rating of a player depends mostly on the players best position score. If we just used the total and base stats we would have been able to predict a players overall rating but not super accuratelly. On the other hand, physical and personal information values were not useful when trying to predict a player’s ova.
 In the future, if we would like to build a new model, we should focus on the players best position score which would lead to lesser use of redundant variables, speeding up the computer prediction model results.
