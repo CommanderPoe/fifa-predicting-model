@@ -1,5 +1,3 @@
-In the FIFA 21 Project we will try to predict a player's "Overall Rating" by analysing data from the following dataset: fifa21_training.csv
-
 ### EXPLANATORY ANALYSIS
 
 For the FIFA21 project, we were presented with a table of data regarding professional football player’s personal, professional and skills information. The goal was to build a model so in the future, we could predict the overall player’s rating score.
@@ -35,9 +33,9 @@ Concatenated each cleaned variable into a final data frame.
 - Train-test split to fit the model with our final data
 Model validation.
 - Calculated R2, MSE, RMSE and MAE
-Noticed our model was better than expected with a model score of 0.79 and mean absolute error of 2.4.
+- Noticed our model was better than expected with a model score of 0.79 and mean absolute error of 2.4.
 
-    #### However, we tried to improve the model prediction by:
+    #### However, we tried to improve the model prediction by:
 - Normalizing the numerical variables with MinMaxScale
 - Introduced relevant categorical variables like international rating(?) and BP
 - Introduced a key numerical variable by using panda’s melt function: players best position score
